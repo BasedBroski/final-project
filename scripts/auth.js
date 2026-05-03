@@ -278,6 +278,31 @@
         });
     }
 
+    function updateValidationLinks() {
+        if (document.body.dataset.disableValidationLinks === "true") {
+            return;
+        }
+
+        const nuLink = document.querySelector("#nu-validator-link");
+        const waveLink = document.querySelector("#wave-link");
+
+        if (!nuLink && !waveLink) {
+            return;
+        }
+
+        const currentUrl = new URL(window.location.href);
+        currentUrl.hash = "";
+        const encoded = encodeURIComponent(currentUrl.toString());
+
+        if (nuLink) {
+            nuLink.href = `https://validator.w3.org/nu/?doc=${encoded}`;
+        }
+
+        if (waveLink) {
+            waveLink.href = `https://wave.webaim.org/report#/${currentUrl.toString()}`;
+        }
+    }
+
     function getSafeRedirect(defaultPath) {
         const params = new URLSearchParams(window.location.search);
         const raw = params.get("redirect");
@@ -319,6 +344,7 @@
         console.info("Login hint: username 'player' and password 'soy'.");
         setupProtectedLinks();
         setupLogoutButton();
+        updateValidationLinks();
         updateAuthControls();
     });
 })();
