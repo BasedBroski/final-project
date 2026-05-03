@@ -113,7 +113,7 @@ How it works:
 
 ## Future Improvements
 Sprint 99 Milestone target:
-- https://github.com/BasedBroski/game-project/milestones
+- https://github.com/BasedBroski/final-project/milestones
 
 Planned Sprint 99 issue themes:
 - Improve mobile touch controls for chase mode.
