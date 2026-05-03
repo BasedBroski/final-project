@@ -37,13 +37,13 @@ This final version improves the original project by:
 Music credits (all tracks used in this project):
 - Let It Sneed - realBabySneed
 - Here Comes The Sneed - realBabySneed
-- Gem Cobbity SMV - creator as labeled in source file (`Gem Cobbity SMV`)
+- Gem Cobbity SMV - David Thougie
 - King of CoalJak Posters - David Thoughie
 - Gas Gas Gas - Manuel
 - Running In The 90's - Max Coveri
 - Tokyo Drift (Fast & Furious) - TERIYAKI BOYZ
-- Bottomless Pit - Death Grips
-- I Hate That You're Happy - creator as labeled in source file (`I Hate That You're Happy`)
+- Bottomless Pit - Savoy
+- I Hate That You're Happy - Tinylittlehouses
 - No Children - The Mountain Goats
 - Exile Vilify - The National
 
