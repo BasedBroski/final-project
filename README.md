@@ -111,16 +111,6 @@ How it works:
 - `JSON.stringify(payload)` serializes the object for transport.
 - The response is parsed and rendered into the chat UI, updating game state.
 
-## Validation
-Primary app URL (GitHub Pages):
-- https://basedbroski.github.io/game-project/
-
-Nu HTML Validator (direct app URL):
-- https://validator.w3.org/nu/?doc=https%3A%2F%2Fbasedbroski.github.io%2Fgame-project%2F
-
-WAVE accessibility report (direct app URL):
-- https://wave.webaim.org/report#/https://basedbroski.github.io/game-project/
-
 ## Future Improvements
 Sprint 99 Milestone target:
 - https://github.com/BasedBroski/game-project/milestones
