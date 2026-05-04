@@ -6,7 +6,7 @@ const RESPECTFUL_WORDS = ["i understand", "take your time", "your choice", "i re
 const CONFUSION_WORDS = ["what did i do", "what did i do wrong", "why", "don't even know", "confused", "explain", "tell me"];
 const REPAIR_WORDS = ["work on", "improve", "change", "fix", "better", "slow down", "healthier"];
 const CASUAL_DEFLECTION_WORDS = ["snack", "food", "drink", "music", "la", "lol", "lmao", "ok", "k"];
-const CURSE_WORDS = ["fuck", "fucking", "shit", "bitch", "asshole", "dick", "bastard", "cunt", "slut", "whore", "nigger", "skank", "douchebag", "faggot", "motherfucker", "twat", "pussy", "poo", "damn", "crap", "darn", "prick", "poop"];
+const CURSE_WORDS = ["fuck", "fucking", "shit", "bitch", "asshole", "dick", "bastard", "cunt", "slut", "whore", "douchebag", "twat", "pussy", "poo", "damn", "crap", "darn", "prick", "poop"];
 const COMPROMISE_CDN = "https://esm.sh/compromise@14.14.4";
 
 import { initMusicPlayer } from "../music.js";
