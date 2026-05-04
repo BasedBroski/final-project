@@ -119,16 +119,9 @@ Planned Sprint 99 issue themes:
 - Improve mobile touch controls for chase mode.
 - Add keyboard shortcuts and ARIA feedback improvements.
 - Expand profile features (avatar presets + validation).
-- Add server-backed auth/profile sync (optional backend phase).
-- Address known UI consistency bugs across auth pages.
+- Address known UI consistency.
 
-## Submission Notes
-Required in repository About section:
-- GitHub Pages deployed app link
-- GCP External IP deployed app link
-- Repository tags relevant to the project
+## Google Cloud
+No matter how hard I tried, I couldn't get past the console to get it set up. "cat default" would show no directory.
+This would lead to "sudo unlink /etc/nginx/sites-enabled/default" not working either.
 
-Required in GitHub Profile README:
-- Featured project name and short description
-- Link to this repository
-- Optional bonus: LinkedIn profile + networking requirements
