@@ -122,5 +122,6 @@ Planned improvements to the site:
 
 ## Google Cloud
 No matter how hard I tried, I couldn't get past the console to get it set up. "cat default" would show no directory.
-This would lead to "sudo unlink /etc/nginx/sites-enabled/default" not working either.
+This would lead to "sudo unlink /etc/nginx/sites-enabled/default" not working either. I tried googling some way to solve
+this, but to no avail.
 
