@@ -1,6 +1,6 @@
 # Soyjak Arcade
 
-> A three-mode browser arcade with score systems, account login, profile editing, and AI-driven dialogue gameplay.
+> A jakker's paradise in terms of gameplay, play through 3 unique games, enjoy the music, and customize your profile.
 
 ## Author
 - BasedBroski
@@ -8,29 +8,28 @@
 
 ## User Story
 - As a player,
-- I want multiple mini-games with persistent identity and profile data,
-- So that I can play, track progress, and personalize my experience in one app.
+- I want multiple soyjak mini-games with a persistent login and profile data,
+- So that I can play, record my highest scores, and personalize my experience in one app.
 
 ## Narrative
-Soyjak Arcade started as a single drag game and was expanded into a multi-mode front-end application with authentication, profile management, music controls, and three playable experiences: drag, chase, and dating sim.
+Soyjak Arcade started as a single drag game and was expanded into a multi-gamemode front-end application with authentication, profile management, music controls, and three playable experiences: drag, chase, and dating sim.
 
-I chose this project to demonstrate practical semester outcomes in one cohesive codebase: reusable UI patterns, modular JavaScript, local/session storage, form handling, dynamic DOM updates, and fetch-based JSON communication.
+I chose this project to demonstrate my knowledge of what my professor Dr.Cumbie, taught me: reusable UI patterns, modular JavaScript, local/session storage, form handling, dynamic DOM updates, and fetch-based JSON communication.
 
 This final version improves the original project by:
 - adding login/signup/logout and protected routes,
-- adding profile creation/display flows,
+- adding profile creation/display,
 - adding a second and third game mode,
 - adding per-game music players,
 - improving accessibility and validation links across pages,
-- documenting deployment and future roadmap expectations.
 
 ## Attribution
 - Bootstrap 5.3.3: https://getbootstrap.com/
 - Normalize.css 8.0.1: https://necolas.github.io/normalize.css/
 - Bootstrap Icons: https://icons.getbootstrap.com/
-- Compromise NLP (dating mode fallback analysis): https://github.com/spencermountain/compromise
+- Compromise NLP: https://github.com/spencermountain/compromise
 - MDN localStorage/sessionStorage docs: https://developer.mozilla.org/
-- AI usage: GitHub Copilot (GPT-5.3-Codex) for planning, refactoring, copyediting, and implementation support
+- A lot of AI usage: GitHub Copilot (GPT-5.3-Codex) for planning, refactoring, copyediting, and implementation support
 - Inspiration/reference for music-player interaction pattern: https://github.com/codewithsadee/music-player
 - Soyjak image source reference: Soybooru - https://soybooru.com/
 
@@ -104,7 +103,8 @@ const response = await fetch(endpoint, {
 Why it matters:
 - This is the app's fetch API + JSON packaging requirement in action.
 - Player dialogue is converted into structured JSON and sent to an AI endpoint.
-- The same architecture allows fallback/local behavior when no endpoint is configured.
+- The player's dialogue will go through the AI's filter
+- The same architecture allows for a fallback when no endpoint is configured.
 
 How it works:
 - `payload` is assembled from user input and conversation state.
@@ -112,14 +112,13 @@ How it works:
 - The response is parsed and rendered into the chat UI, updating game state.
 
 ## Future Improvements
-Sprint 99 Milestone target:
+Milestone target:
 - https://github.com/BasedBroski/final-project/milestones
 
-Planned Sprint 99 issue themes:
+Planned improvements to the site:
 - Improve mobile touch controls for chase mode.
-- Add keyboard shortcuts and ARIA feedback improvements.
-- Expand profile features (avatar presets + validation).
-- Address known UI consistency.
+- Add some more keyboard shortcuts.
+- Allow for communication through comments, like my previous forum website idea.
 
 ## Google Cloud
 No matter how hard I tried, I couldn't get past the console to get it set up. "cat default" would show no directory.
